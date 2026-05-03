@@ -143,3 +143,102 @@
 
 ## Completed Items
 (None yet - starting fresh)
+
+
+## Phase 4: Backend API Server
+- [ ] Create Express.js Server
+  - [ ] User API (login, profile, logout)
+  - [ ] Terminal API (connect, execute, list)
+  - [ ] Agent API (create, list, debate)
+  - [ ] Identity API (bind, verify, reset)
+  - [ ] LLM API (prompt, models)
+  - [ ] Tool API (execute, list)
+- [ ] Database Integration (Supabase)
+  - [ ] User Schema
+  - [ ] Terminal Sessions Schema
+  - [ ] Agent Schema
+  - [ ] Debate History Schema
+- [ ] Authentication & Authorization
+  - [ ] JWT Token Management
+  - [ ] OAuth Integration
+  - [ ] Role-based Access Control
+- [ ] Error Handling & Logging
+- [ ] API Tests
+
+## Phase 5: Postman API Collection
+- [ ] Create Postman Collection
+  - [ ] User Endpoints
+  - [ ] Terminal Endpoints
+  - [ ] Agent Endpoints
+  - [ ] Identity Endpoints
+  - [ ] LLM Endpoints
+  - [ ] Tool Endpoints
+- [ ] Environment Setup (Dev, Staging, Prod)
+- [ ] Pre-request Scripts
+- [ ] Test Scripts
+- [ ] Documentation
+- [ ] Export & Share
+
+## Phase 6: Flutter Mobile App
+- [ ] Project Setup (Dart + Flutter Advanced)
+  - [ ] Project Structure
+  - [ ] Dependencies (Riverpod, GetIt, Dio)
+  - [ ] Theme & Design System
+- [ ] Auth Screen (Warp-style)
+  - [ ] Email/Password Login
+  - [ ] GitHub OAuth
+  - [ ] Google OAuth
+  - [ ] SSO
+  - [ ] OTP Verification
+- [ ] Terminal Screen
+  - [ ] Connection Management
+  - [ ] Command Input & Output
+  - [ ] Session Management
+  - [ ] File Browser
+- [ ] War Room Screen
+  - [ ] Agent List
+  - [ ] Debate Interface
+  - [ ] Real-time Messaging
+  - [ ] Debate History
+- [ ] Home Screen
+  - [ ] Dashboard
+  - [ ] Quick Actions
+  - [ ] Status Overview
+- [ ] Settings Screen
+  - [ ] Profile Management
+  - [ ] Preferences
+  - [ ] Logout
+
+## Phase 7: API Integration
+- [ ] HTTP Client Setup (Dio)
+- [ ] API Service Layer
+  - [ ] User Service
+  - [ ] Terminal Service
+  - [ ] Agent Service
+  - [ ] Identity Service
+  - [ ] LLM Service
+  - [ ] Tool Service
+- [ ] State Management (Riverpod)
+- [ ] Error Handling
+- [ ] Caching Strategy
+
+## Phase 8: Real-time Communication
+- [ ] WebSocket Setup
+  - [ ] Connection Management
+  - [ ] Reconnection Logic
+  - [ ] Message Handling
+- [ ] Live Terminal Updates
+- [ ] Live Debate Updates
+- [ ] Push Notifications
+
+## Phase 9: Testing & Deployment
+- [ ] Unit Tests (Flutter)
+- [ ] Widget Tests
+- [ ] Integration Tests
+- [ ] API Tests (Postman)
+- [ ] Performance Testing
+- [ ] Security Testing
+- [ ] Build & Release
+  - [ ] iOS Build
+  - [ ] Android Build
+  - [ ] TestFlight / Google Play
